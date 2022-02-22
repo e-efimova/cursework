@@ -10,30 +10,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-
+    
     <script defer src="js/fontawesome-all.min.js"></script>
 	</head>
   <body>
+ 
+    <!--НАВИГАЦИЯ-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand ms-4" href="index.html"><img src="img/logo.svg"></a>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active mx-3" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-3" href="#">Feedback</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <a href=# class="me-3"><img src="img/cart.svg" width="70%" height="70%"> </a>
-            </form>
-          </div>
+        <a class="navbar-brand ms-4 logo" href="index.html"><img src="img/logo.svg"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Feedback</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <a href=# class="me-3 cart"><img src="img/cart.svg"> </a>
+          </form>
+        </div>
       </div>
     </nav>
 
-
+    <!--КАТЕГОРИИ-->
       <div class="category bg-white">
         <div class="row pt-3 pb-1 me-0">
           <div class="col text-center link-ease-in-out dropdown">
@@ -60,21 +65,19 @@
           </div>
       </div>
 
-    <section>
-      <div>
-        <h2 class="title text-center">HITS OF THE SEASON</h2>
-      </div>
+    <!--СЕЗОННЫЕ ХИТЫ-->
+    <div class="container-fluid">
+      <div><h2 class="title text-center">HITS OF THE SEASON</h2></div>
 
-      <div class="hits text-center">
-          <img src="img/hits_c.jpg">
-          <img src="img/hits_p.jpg">
-          <img src="img/hits_c.jpg">
-            <p><a href="#" class="text-decoration-none">TO THE COLLECTION</a></p>
+      <div class="hits align-items-center text-center row mx-5">
+        <div class="col-4 "><img src="img/hits_c.jpg"></div>
+        <div class="col-4 px-0"><img src="img/hits_p.jpg"></div>
+        <div class="col-4 "><img src="img/hits_c.jpg"></div>   
+        <p class="text-center"><a href="#" class="text-decoration-none">TO THE COLLECTION</a></p>
       </div>
-
-      <div>
-        <h2 class="title text-center">EXCEPT CLOTHES YOU WILL FIND NEXT THINGS</h2>
-      </div>
+      
+      <!--ПРОЧЕЕ-->
+      <div><h2 class="title text-center">EXCEPT CLOTHES YOU WILL FIND NEXT THINGS</h2></div>
 
       <div class="text-center">
         <div class="another"><a href="#"><img src="img/cc.jpg"></a></div>
@@ -82,9 +85,24 @@
         <div class="another"><a href="#"><img src="img/fig.jpg"></a></div>
         <div class="another"><a href="#"><img src="img/wigs.jpg"></a></div>
       </div>
+    </div>
 
-    </section>
-
+    <!--ПРЕИМУЩЕСТВА-->
+    <div><h2 class="title text-center">ADVANTAGES</h2></div>
+    <div class="advantages container-fluid">
+      <div class="row align-items-center text-center">
+        <div class="col-3"><img src="img/star.svg"></div>
+        <div class="col-3"><img src="img/delivery.svg"></div>
+        <div class="col-3"><img src="img/prices.svg"></div>
+        <div class="col-3"><img src="img/assort.svg"></div>
+      </div>
+      <div class="row align-items-center text-center">
+        <div class="col-3"><p>HIGH QUALITY</p></div>
+        <div class="col-3"><p>FAST DELIVERY</p></div>
+        <div class="col-3"><p>FAVORABLE PRICES</p></div>
+        <div class="col-3"><p>LARGE ASSORTMENT</p></div>
+      </div>
+    </div>
       
         
         <footer class="small bg-light mt-1">
