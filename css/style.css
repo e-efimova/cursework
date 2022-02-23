@@ -1,20 +1,20 @@
-@media (min-width: 480px) and (max-width: 1920px) {
+@media (min-width: 200px) and (max-width: 1920px) {
     .category h1 {
-        font-size: calc(18px + (24 - 18) * ( (100vw - 480px) / ( 1920 - 480) ));
+        font-size: calc(18px + (24 - 18) * ( (100vw - 200px) / ( 1920 - 200) ));
         font-weight: bold;
         color: #444444;
     }
 
     .nav-item a {
-        font-size: calc(12px + (14 - 12) * ( (100vw - 480px) / ( 1920 - 480) ));
+        font-size: calc(12px + (14 - 12) * ( (100vw - 200px) / ( 1920 - 200) ));
     }
 
     .logo img {
-        max-width: calc(64px + (96 - 64) * ( (100vw - 480px) / ( 1920 - 480) ));
+        max-width: calc(64px + (96 - 64) * ( (100vw - 200px) / ( 1920 - 200) ));
     }
 
     .cart img {
-        max-width: calc(18px + (32 - 18) * ( (100vw - 480px) / ( 1920 - 480) ));
+        max-width: calc(18px + (32 - 18) * ( (100vw - 200px) / ( 1920 - 200) ));
     }
 
     .category img {
@@ -22,13 +22,13 @@
     }
 
     .category a {
-        font-size: calc(12px + (14 - 12) * ( (100vw - 480px) / ( 1920 - 480) ));
+        font-size: calc(12px + (14 - 12) * ( (100vw - 200px) / ( 1920 - 200) ));
     }
     .dropdown-content a {
-        font-size: calc(12px + (14 - 12) * ( (100vw - 480px) / ( 1920 - 480) ));;  
+        font-size: calc(12px + (14 - 12) * ( (100vw - 200px) / ( 1920 - 200) ));;  
     }
     .hits div {
-        max-width: calc(480 + (1920 - 480) * ( (100vw - 480px) / ( 1920 - 480) ));
+        max-width: calc(480 + (1920 - 480) * ( (100vw - 200px) / ( 1920 - 200) ));
     }
     
     .hits img {
@@ -37,12 +37,12 @@
     
     .hits a {
         color: #444444;
-        font-size: calc(13px + (18 - 13) * ( (100vw - 480px) / ( 1920 - 480) ));
+        font-size: calc(13px + (18 - 13) * ( (100vw - 200px) / ( 1920 - 200) ));
         font-weight: lighter;
     }
     .hits p {
-        margin-top: calc(20px + (45 - 20) * ( (100vw - 480px) / ( 1920 - 480) ));
-        margin-bottom: calc(20px + (45 - 20) * ( (100vw - 480px) / ( 1920 - 480) ));
+        margin-top: calc(20px + (45 - 20) * ( (100vw - 200px) / ( 1920 - 200) ));
+        margin-bottom: calc(20px + (45 - 20) * ( (100vw - 200px) / ( 1920 - 200) ));
     }
     
     .hits a:hover {
@@ -50,14 +50,14 @@
     }
 
     div .title {
-        font-size: calc(18px + (24 - 18) * ( (100vw - 480px) / ( 1920 - 480) ));
+        font-size: calc(18px + (24 - 18) * ( (100vw - 200px) / ( 1920 - 200) ));
         font-weight: bold;
         color: #444444;
-        margin-bottom: calc(20px + (45 - 20) * ( (100vw - 480px) / ( 1920 - 480) ));
+        margin-bottom: calc(20px + (45 - 20) * ( (100vw - 200px) / ( 1920 - 200) ));
     }
 
     .category {
-        margin-bottom: calc(20px + (45 - 20) * ( (100vw - 480px) / ( 1920 - 480) ));
+        margin-bottom: calc(20px + (45 - 20) * ( (100vw - 200px) / ( 1920 - 200) ));
     }
     
     .another img {
@@ -70,24 +70,24 @@
     }
 
     .another {
-        margin-bottom: calc(20px + (45 - 20) * ( (100vw - 480px) / ( 1920 - 480) ));
+        margin-bottom: calc(20px + (45 - 20) * ( (100vw - 200px) / ( 1920 - 200) ));
     }
     
     .advantages {
         background-color: #E8F5F0; 
-        margin-bottom: calc(20px + (45 - 20) * ( (100vw - 480px) / ( 1920 - 480) ));
+        margin-bottom: calc(20px + (45 - 20) * ( (100vw - 200px) / ( 1920 - 200) ));
     }
 
     .advantages p {
-        font-size: calc(16px + (24 - 16) * ( (100vw - 480px) / ( 1920 - 480) ));
+        font-size: calc(16px + (24 - 16) * ( (100vw - 200px) / ( 1920 - 200) ));
         color: #001A72;
         font-weight: lighter; 
-        margin-bottom: calc(18px + (32 - 18) * ( (100vw - 480px) / ( 1920 - 480) ));
+        margin-bottom: calc(18px + (32 - 18) * ( (100vw - 200px) / ( 1920 - 200) ));
     }
 
     .advantages img {
-        max-width: calc(40px + (100 - 40) * ( (100vw - 480px) / ( 1920 - 480) ));
-        margin-top: calc(18px + (32 - 18) * ( (100vw - 480px) / ( 1920 - 480) ));
+        max-width: calc(40px + (100 - 40) * ( (100vw - 200px) / ( 1920 - 200) ));
+        margin-top: calc(18px + (32 - 18) * ( (100vw - 200px) / ( 1920 - 200) ));
     }
 }   
 
