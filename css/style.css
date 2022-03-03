@@ -139,3 +139,23 @@
 
 
 
+
+.sort {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    background-color: #F6F6F6;
+    border: 1px solid #F6F6F6;
+    border-radius: 8px;
+    box-shadow: 0px 2px 2px 1px #C1C1C1;
+}
+
+.sort-price {
+    margin-right: 20px;
+}
+.sort-size {
+    margin-right: 20px;
+}
