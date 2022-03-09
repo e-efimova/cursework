@@ -27,8 +27,9 @@
     .dropdown-content a {
         font-size: calc(12px + (14 - 12) * ( (100vw - 200px) / ( 1920 - 200) ));;  
     }
+    
     .hits div {
-        max-width: calc(480 + (1920 - 480) * ( (100vw - 200px) / ( 1920 - 200) ));
+        max-width: calc(200 + (1920 - 200) * ( (100vw - 200px) / ( 1920 - 200) ));
     }
     
     .hits img {
@@ -48,6 +49,7 @@
     .hits a:hover {
         text-shadow: 0px 3px 5px gray;
     }
+    
 
     div .title {
         font-size: calc(18px + (24 - 18) * ( (100vw - 200px) / ( 1920 - 200) ));
@@ -79,22 +81,17 @@
     }
 
     .advantages p {
-        font-size: calc(16px + (24 - 16) * ( (100vw - 200px) / ( 1920 - 200) ));
+        font-size: calc(10px + (30 - 10) * ( (100vw - 200px) / ( 1920 - 200) ));
         color: #001A72;
         font-weight: lighter; 
-        margin-bottom: calc(18px + (32 - 18) * ( (100vw - 200px) / ( 1920 - 200) ));
+        margin-bottom: calc(18px + (32 - 18) * ( (100vw - 480px) / ( 1920 - 480) ));
     }
 
     .advantages img {
-        max-width: calc(40px + (100 - 40) * ( (100vw - 200px) / ( 1920 - 200) ));
+        max-width: calc(15px + (100 - 15) * ( (100vw - 200px) / ( 1920 - 200) ));
         margin-top: calc(18px + (32 - 18) * ( (100vw - 200px) / ( 1920 - 200) ));
     }
 }   
-
-* {
-    font-family: 'Roboto', sans-serif;
-    
-}
 
 /*Выпадающий список при наведении на категорию*/
 .dropdown {
@@ -135,9 +132,6 @@
 .link-ease-in-out h1:focus:after {
     width: 100%;
 }
-
-
-
 
 
 .sort {
